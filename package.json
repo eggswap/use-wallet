@@ -1,7 +1,7 @@
 {
-  "name": "use-wallet",
-  "version": "0.8.0",
-  "author": "Aragon Association <legal@aragon.org>",
+  "name": "use-wallet-exp",
+  "version": "0.8.1",
+  "author": "EggSwap <sithslow@gmail.com>",
   "license": "MIT",
   "main": "dist/cjs/index.js",
   "module": "dist/index.js",
@@ -16,8 +16,7 @@
     "dev": "yarn rollup --config --watch",
     "lint": "yarn eslint ./src",
     "test": "yarn lint",
-    "prepare": "rm -rf ./dist && yarn build",
-    "prepublishOnly": "git push && git push --tags"
+    "prepare": "rm -rf ./dist && yarn build"
   },
   "dependencies": {
     "@aragon/provided-connector": "^6.0.7",
@@ -31,6 +30,8 @@
     "@web3-react/torus-connector": "^6.1.1",
     "@web3-react/walletconnect-connector": "^6.1.4",
     "@web3-react/walletlink-connector": "^6.1.1",
+    "browserslist": "^4.14.5",
+    "caniuse-lite": "^1.0.30001141",
     "jsbi": "^3.1.1"
   },
   "devDependencies": {
