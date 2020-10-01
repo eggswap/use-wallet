@@ -6,7 +6,7 @@ import {
   ConnectionRejectedError,
   UseWalletProvider,
   useWallet,
-} from 'use-wallet'
+} from 'use-wallet-exp'
 
 const { providers: EthersProviders, utils, EtherSymbol } = ethers
 
@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-      <h1>use-wallet</h1>
+      <h1>use-wallet-exp</h1>
 
       {(() => {
         if (wallet.error?.name) {

@@ -9020,7 +9020,7 @@ use-subscription@1.1.1:
   resolved "https://registry.yarnpkg.com/use-subscription/-/use-subscription-1.1.1.tgz#5509363e9bb152c4fb334151d4dceb943beaa7bb"
   integrity sha512-gk4fPTYvNhs6Ia7u8/+K7bM7sZ7O7AMfWtS+zPO8luH+zWuiGgGcrW0hL4MRWZSzXo+4ofNorf87wZwBKz2YdQ==
 
-"use-wallet@file:../..":
+"use-wallet-exp@file:../..":
   version "0.7.1"
   dependencies:
     "@aragon/provided-connector" "^6.0.7"

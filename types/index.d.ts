@@ -1,4 +1,4 @@
-declare module 'use-wallet' {
+declare module 'use-wallet-exp' {
   import { ReactNode } from 'react';
 
   type Connectors = Partial<{
